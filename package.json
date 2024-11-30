@@ -13,7 +13,7 @@
     "ubuntu"
   ],
   "author": "Corey Butler <corey@coreybutler.com>",
-  "devDependencies": {
+  "_devDependencies": {
     "mocha": "*"
   },
   "main": "lib/node-linux.js",
@@ -21,11 +21,11 @@
     "linux"
   ],
   "dependencies": {
-    "optimist": "~0.6.1",
-    "mu2": "~0.5.20"
+    "mu2": "^0.5.21",
+    "yargs": "^17.7.2"
   },
   "readmeFilename": "README.md",
-  "scripts": {
+  "_scripts": {
     "test": "mocha"
   },
   "repository": {
